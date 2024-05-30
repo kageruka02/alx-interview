@@ -23,4 +23,4 @@ def pascal_triangle(n):
        
     return containerArray    
 
-print(pascal_triangle(5))
+
