@@ -24,5 +24,5 @@ def pascal_triangle(n):
             originalArray.insert(index + 1, sum)
             triangle = originalArray.copy()
         pascalArray = triangle.copy()
-        containerArray.append(pascalArray.copy())
+        containerArray.append(pascalArray)
     return containerArray 
