@@ -3,6 +3,7 @@
 0-main
 """
 
+
 def pascal_triangle(n):
     """
     Print the triangle
@@ -16,7 +17,7 @@ def pascal_triangle(n):
         return [[1]]
     pascalArray.append(1)
     containerArray.append(pascalArray.copy())
-    triangle = [] 
+    triangle = []
     for number in range(0, n - 2):
         originalArray = [1, 1]
         for index in range(0, len(pascalArray) - 1):
@@ -25,4 +26,4 @@ def pascal_triangle(n):
             triangle = originalArray.copy()
         pascalArray = triangle.copy()
         containerArray.append(pascalArray)
-    return containerArray 
+    return containerArray
