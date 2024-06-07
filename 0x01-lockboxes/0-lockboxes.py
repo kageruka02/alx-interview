@@ -4,11 +4,10 @@
 
 def canUnlockAll(boxes):
     "unlocking boxes"
-    push = set([0])
-    display = set()
+    display = set([0])
     for index in range(0, len(boxes) - 1):
-        push.update(set(boxes[index]))
-        for i in push:
+        boxes[index].append(0)
+        for i in set(boxes[index]):
             if i < len(boxes) and i >= 0:
                 display.update(set(boxes[i]))
         if index + 1 not in display:
