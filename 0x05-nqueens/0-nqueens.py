@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 import sys
 
+"nqueens algorithm"
+
 
 def is_safe(board, row, col):
     """Check if it's safe to place a queen at board[row][col]. This function
