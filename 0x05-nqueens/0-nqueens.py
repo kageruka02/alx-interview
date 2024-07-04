@@ -1,5 +1,5 @@
-#!/usr/bin/env python3
-"nqueens algorithm"
+#!/usr/bin/python3
+""" N queens """
 import sys
 
 
@@ -56,6 +56,7 @@ def solve_nqueens(n):
 
 
 def main():
+    "main function"
     if len(sys.argv) != 2:
         print("Usage: nqueens N")
         sys.exit(1)
