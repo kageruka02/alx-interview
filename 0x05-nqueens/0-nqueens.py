@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
-import sys
-
 "nqueens algorithm"
+import sys
 
 
 def is_safe(board, row, col):
