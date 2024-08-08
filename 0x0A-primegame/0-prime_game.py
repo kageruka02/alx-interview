@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+"""0. Prime Game - Maria and Ben are playing a game"""
+
+
 def sieve_of_eratosthenes(max_num):
     """Precompute prime numbers
     up to max_num using the Sieve of Eratosthenes."""
